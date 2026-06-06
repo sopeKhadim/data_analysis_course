@@ -38,7 +38,7 @@
 
 import marimo
 
-__generated_with = "0.23.8"
+__generated_with = "0.23.9"
 app = marimo.App(
     width="medium",
     app_title="Séance 1 — Introduction à l'Analyse de Données",
@@ -285,13 +285,6 @@ def _(mo):
     return
 
 
-@app.cell
-def _():
-    import matplotlib.pyplot as plt
-
-    return (plt,)
-
-
 @app.cell(hide_code=True)
 def _(mpatches, plt):
     domaines = {
@@ -317,13 +310,6 @@ def _(mpatches, plt):
     plt.tight_layout()
     fig_dom
     return
-
-
-@app.cell
-def _():
-    import matplotlib.pyplot as plt
-
-    return (plt,)
 
 
 @app.cell(hide_code=True)
