@@ -1,0 +1,370 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.9",
+    "script_metadata_hash": "5d5a5160cb914770d66384ca48812ffc"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "52c7138d83fca3f51a9bc52a11b8afa7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"quiz-seances-1-0-1-1\">\ud83d\udcdd Quiz \u2014 S\u00e9ances 1-0 &amp; 1-1</h1>\n<span class=\"paragraph\"><strong>Institut Polytechnique de Saint-Louis (IPSL) \u00b7 Analyse de Donn\u00e9es 2025-2026</strong></span>\n<hr />\n<span class=\"paragraph\">Ce quiz couvre les deux premi\u00e8res s\u00e9ances du cours :</span>\n<ul>\n<li><strong>S\u00e9ance 1-0</strong> : Introduction \u00e0 l'analyse de donn\u00e9es (CRISP-DM, taxonomie, pandas, \u00e9thique\u2026)</li>\n<li><strong>S\u00e9ance 1-1</strong> : Marimo, bases Python, NumPy, pandas, polars, scikit-learn</li>\n</ul>\n<span class=\"paragraph\">\u23f1\ufe0f <strong>Dur\u00e9e estim\u00e9e : 10 \u00e0 15 minutes</strong> \u00b7 15 questions</span>\n<blockquote>\n<span class=\"paragraph\">S\u00e9lectionne une r\u00e9ponse par question, puis clique sur <strong>Voir mes r\u00e9sultats</strong> en bas.</span>\n</blockquote></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "7e2cd9df265a39670af3f1868868384d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h3 id=\"partie-1-seance-1-0-introduction-a-lanalyse-de-donnees\">\ud83d\udd35 PARTIE 1 \u2014 S\u00e9ance 1-0 : Introduction \u00e0 l'Analyse de Donn\u00e9es</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "42f496c8d4f8bade6b98d2e20439637a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 1.</strong> Quelle est la diff\u00e9rence principale entre l'<em>analyse de donn\u00e9es</em> et la <em>science des donn\u00e9es</em> ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "594123a851c27edfc5fce0a47a9fbebd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "8d74149e9ab078e0dbf411adf8a938bf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 2.</strong> Dans le <em>continuum analytique</em>, quelle approche r\u00e9pond \u00e0 la question \u00ab Que faut-il faire ? \u00bb ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "6b961954378be42793d315f74dbbbcc0",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "0bced6e558f905d774edd7439f172f25",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 3.</strong> Le <em>niveau d'\u00e9tudes</em> (L1 &lt; L2 &lt; M1 &lt; M2) est une variable de type :</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "1609c9449cb1a2004d13585c6ed716eb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "77b8911db6a2301abfc00a9b7847753d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 4.</strong> Quelle est la <strong>premi\u00e8re</strong> phase du cycle CRISP-DM ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "56ae45600cb8aaba4bb7fb4c584d747d",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "73cdc5810329ec3f24d55071916a9271",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 5.</strong> Quel est le principal avantage du format <strong>Parquet</strong> par rapport au <strong>CSV</strong> ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "9198a2c659dad1daf89dbcb2f0868858",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "6d4f3285d43535d6b82700b225ee3724",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 6.</strong> L'exemple de <em>Google Flu Trends</em> illustre principalement quel pi\u00e8ge ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "3f16c6c9fb3483f4d1c0828f0ee91628",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "2fa6602f94c50c595a242f16b7989995",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 7.</strong> Que retourne <code>df.shape</code> sur un DataFrame pandas de 1 309 lignes et 14 colonnes ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "97a40173e196a11c2a0682e76e731163",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "d725271331c92752f136a4b96cebf0bf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 8.</strong> Dans le dataset Titanic, la colonne <code>Pclass</code> (valeurs 1, 2, 3) est :</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "da5f6ccfbcb7f8f7c1730273974658ee",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "0abda51097947a19a7a1a82ad43605f4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h3 id=\"partie-2-seance-1-1-python-librairies\">\ud83d\udfe2 PARTIE 2 \u2014 S\u00e9ance 1-1 : Python &amp; Librairies</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "0427f9e21d3d90ea3ebee83880b4c76c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 9.</strong> Dans <strong>marimo</strong>, pourquoi une variable ne peut-elle \u00eatre d\u00e9finie que dans <strong>une seule cellule</strong> ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "d1f2c2063b90b9efae10d33456c9b657",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "1259331f6be9994f58231a93f0911479",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 10.</strong> Quel est le r\u00e9sultat de ce code Python ?\n<div class=\"language-python codehilite\"><pre><span></span><code><span class=\"n\">notes</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">12</span><span class=\"p\">,</span> <span class=\"mi\">15</span><span class=\"p\">,</span> <span class=\"mi\">9</span><span class=\"p\">,</span> <span class=\"mi\">18</span><span class=\"p\">]</span>\n<span class=\"n\">admis</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"n\">n</span> <span class=\"k\">for</span> <span class=\"n\">n</span> <span class=\"ow\">in</span> <span class=\"n\">notes</span> <span class=\"k\">if</span> <span class=\"n\">n</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">10</span><span class=\"p\">]</span>\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">admis</span><span class=\"p\">)</span>\n</code></pre></div></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "9cb626cdc1af3a0e208645965b1d734e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "321f1f385ff59f27026238335f405a7a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 11.</strong> Quelle structure de donn\u00e9es Python est <strong>immuable</strong> (non modifiable apr\u00e8s cr\u00e9ation) ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "d709313ed38e7fd5e8c0a17a0067638a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "d1ebcc2ec3d90c0327133183a1892957",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 12.</strong> En <strong>NumPy</strong>, que signifie le terme <em>vectorisation</em> ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "7df4eeea304e2f4a729f694a2689cd31",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "5c714a4ac817bf9694f9ac485b5ff3e1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 13.</strong> Quelle est la diff\u00e9rence entre <code>df.loc[]</code> et <code>df.iloc[]</code> dans pandas ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "2c5e7e9ff2129065b450ef4df3cdc178",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "5d00191b767079ec8bc74e2383ea389d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 14.</strong> Quel est le principal avantage de <strong>Polars</strong> par rapport \u00e0 pandas pour les grands volumes ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "d2ec1228dee49a27f8170a54a31db7cd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "4a8928a4786e49ca876f55330aa9ebab",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question 15.</strong> Dans le pipeline <strong>scikit-learn</strong>, quel est l'ordre correct des \u00e9tapes ?</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "9774ce5e531b92ff085a7a28766288ec",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "52c9ef9f69a50c4351256a730a828d5f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr /></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "474e84bc6887681b8fd4040a27f1fc04",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "wlCL",
+      "code_hash": "cd5cef4ce3a4c89c04f15cc6fda8c40c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "kqZH",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
