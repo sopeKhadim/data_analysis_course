@@ -1045,6 +1045,8 @@ def _section_td(mo):
     ---
     ## 5. TD/TP A Rendre — Exercices de nettoyage sur le dataset Titanic
 
+    ***A Rendre au plus tard lundi 22/06/2026 avant 23h 59.***
+
     ### Contexte métier
 
     Vous êtes data analyst pour une compagnie maritime. On vous fournit le manifeste des passagers du RMS Titanic (1 309 passagers, 14 colonnes). Votre mission : **nettoyer et préparer les données dans le but d'analyser les chances de survie de ce nauffrage**.
