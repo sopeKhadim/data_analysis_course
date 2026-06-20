@@ -1045,7 +1045,8 @@ def _section_td(mo):
     ---
     ## 5. TD/TP A Rendre — Exercices de nettoyage sur le dataset Titanic
 
-    ***A Rendre au plus tard lundi 22/06/2026 avant 23h 59.***
+    **A Rendre au plus tard lundi 22/06/2026 avant 23h 59.***
+    **Mail** : mboup.djibril@ugb.edu.sn
 
     ### Contexte métier
 
