@@ -752,7 +752,7 @@ def _retail_imputation(df_clean):
     print(f"Manquants initiaux :")
     print(f"  UnitPrice  = {_df_ri['UnitPrice'].isnull().sum()} ({_df_ri['UnitPrice'].isnull().mean()*100:.1f}%) → MCAR → médiane")
     print(f"  CustomerID = {_df_ri['CustomerID'].isnull().sum()} ({_df_ri['CustomerID'].isnull().mean()*100:.1f}%) → MAR  → indicatrice")
-    print(f"       = {_df_ri['Country'].isnull().sum()} ({_df_ri['Country'].isnull().mean()*100:.1f}%) → MCAR → mode")
+    print(f" Country  = {_df_ri['Country'].isnull().sum()} ({_df_ri['Country'].isnull().mean()*100:.1f}%) → MCAR → mode")
     print()
 
     # UnitPrice — MCAR → médiane (simple, non biaisée pour MCAR)
